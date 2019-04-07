@@ -11,7 +11,7 @@ pwd; hostname; date
 set -x
 export VAR=`bc -l <<< "$SLURM_ARRAY_TASK_ID"`
 
-cd /om/user/mikail/MatlabFolder/
+cd /om/user/ehoseini/MatlabFolder/
 
 module add mit/matlab/2018a
 matlab -nodisplay -nodesktop -r "grid_dynamics($VAR,'test.mat', .5, 0,1);  quit"
