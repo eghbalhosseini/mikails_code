@@ -3,7 +3,7 @@
 #SBATCH --mem=5gb
 #SBATCH --cpus-per-task=1
 #SBATCH --time=5:00:00
-#SBATCH --output=/om/user/mikail/MatlabFolder/matlabtest_%A_%a.log
+#SBATCH --output=/om/user/ehoseini/MatlabFolder/matlabtest_%A_%a.log
 #SBATCH --array=1
 #SBATCH --ntask=1
 pwd; hostname; date
